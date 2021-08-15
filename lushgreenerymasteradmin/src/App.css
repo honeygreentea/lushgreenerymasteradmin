@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -36,3 +37,78 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  width: 150px;
+  height: 40px;
+}
+
+.getadvisors {
+  width: 320px;
+  height: 50px;
+}
+
+.advisors {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.advisor {
+ width: 700px;
+ height: 200pxpx;
+ border: 1px solid black;
+ margin: 10px;
+ padding: 10px;
+
+}
+.policies {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 50px;
+
+}
+.policy {
+  align-items: center;
+  width: 700px;
+  height: 200pxpx;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+ }
+ 
+
+.newpolicy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+.delete{
+  width:10px;
+}
+
+.formheader{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+.newpolicybutton {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
